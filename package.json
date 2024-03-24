@@ -1,7 +1,7 @@
 {
-    "name": "serverest-cypress",
+    "name": "QualityMap_Back_End",
     "version": "1.0.0",
-    "description": "Projeto de estudo de testes back-end com Cypress para o simulador de loja virtual ServeRest API",
+    "description": "",
     "main": "index.js",
     "scripts": {
         "lint": "eslint cypress/**/*.js",
