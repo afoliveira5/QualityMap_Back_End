@@ -1,4 +1,4 @@
-name: QualityMap_Back_End
+name: QualityMap_Front_End
 on: [push]
 jobs:
   cypress-run:
@@ -6,6 +6,8 @@ jobs:
     steps:
       - name: Teste
         uses: actions/checkout@v2
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v4
     
