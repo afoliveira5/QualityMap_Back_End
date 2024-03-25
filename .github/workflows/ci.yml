@@ -1,4 +1,4 @@
-name: QualityMap_Front_End
+name: QualityMap_Back_End
 on: [push]
 jobs:
   cypress-run:
