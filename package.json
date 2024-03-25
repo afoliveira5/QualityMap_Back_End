@@ -7,7 +7,9 @@
         "lint": "eslint cypress/**/*.js",
         "lint:fix": "eslint cypress/**/*.js --fix",
         "test": "cypress run",
-        "cy:open": "cypress open"
+        "cy:open": "cypress open",
+        "test_headed": "cypress run --headed"
+
     },
     "author": "Aparecido.Oliveira",
     "license": "MIT",
